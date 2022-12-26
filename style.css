@@ -55,7 +55,7 @@ body{
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 550px){
     .shop{
         grid-template-columns: repeat(1, 224px);
     }
