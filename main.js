@@ -61,7 +61,7 @@ let increment = (id) => {
         search.quantity += 1;
     }
 
-    update(id);
+    //update(id);
     //console.log(basket);
 
 }
@@ -75,7 +75,7 @@ let decrement = (id) => {
     }else{
         search.quantity -= 1;
     }
-    update(id);
+    //update(id);
     //console.log(basket);
 }
 
