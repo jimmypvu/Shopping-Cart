@@ -128,11 +128,11 @@ a, a:hover, a:visited, a:active{
     color: #212121;
     margin: 0rem 1rem 2rem 2rem;
     text-align: center;
+    font-size: 2rem;
 }
 
 .homePage.collectionHeader{
     animation:  2.2s 1 linear fadeinlite;
-
 }
 
 @keyframes fadeinlite {
