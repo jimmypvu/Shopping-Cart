@@ -78,6 +78,7 @@ a, a:hover, a:visited, a:active{
     font-style: italic;
     font-size: .75rem;
     opacity: .93;
+    pointer-events: none;
 }
 
 .cart{
