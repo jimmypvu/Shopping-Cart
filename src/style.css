@@ -48,7 +48,7 @@ a, a:hover, a:visited, a:active{
     font-style: italic;
     font-size: 18px;
     white-space: nowrap;
-    opacity: .94;
+    opacity: .92;
 }
 
 .logo img{
@@ -58,6 +58,26 @@ a, a:hover, a:visited, a:active{
     position: absolute;
     top: 18px;
     left: 9px;
+}
+
+.homePage img{
+    animation-name: fadein, slidein;
+    animation-duration: 1.9s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadein {
+    0%{opacity: 0}
+    25%{opacity: .2}
+    50%{opacity: .42}
+    75%{opacity: .72}
+    100%{opacity: .88;}
+}
+
+@keyframes slidein{
+    0%{margin-left: -60%}
+    50%{margin-left: 33%}
+    100%{margin-left: 0%}
 }
 
 .navbar img:hover{
@@ -80,6 +100,8 @@ a, a:hover, a:visited, a:active{
     opacity: .93;
     pointer-events: none;
 }
+
+
 
 .cart{
     background-color: whitesmoke;
@@ -106,6 +128,19 @@ a, a:hover, a:visited, a:active{
     color: #212121;
     margin: 0rem 1rem 2rem 2rem;
     text-align: center;
+}
+
+.homePage.collectionHeader{
+    animation:  2.2s 1 linear fadeinlite;
+
+}
+
+@keyframes fadeinlite {
+    0%{opacity: 0}
+    25%{opacity: .25}
+    50%{opacity: .5}
+    75%{opacity: .75}
+    100%{opacity: 1}
 }
 
 .shop{
