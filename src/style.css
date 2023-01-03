@@ -75,7 +75,7 @@ a, a:hover, a:visited, a:active{
 }
 
 @keyframes slidein{
-    0%{margin-left: -60%}
+    0%{margin-left: -66%}
     50%{margin-left: 33%}
     100%{margin-left: 0%}
 }
