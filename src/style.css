@@ -37,6 +37,11 @@ a, a:hover, a:visited, a:active{
     margin-bottom: 3rem;
 }
 
+@font-face {
+    font-family: "freshmarker";
+    src: url("../freshmarker.ttf");
+}
+
 .navbar h2{
     transform: rotate(2deg) translateX(14px) translateY(28px) skewX(4deg) skewY(-4deg);
     background-color: #202020;
@@ -45,19 +50,30 @@ a, a:hover, a:visited, a:active{
     margin-left: 0;
     border-radius: .15rem;
     box-shadow: -1px 2px rgba(242,222,111,.9), 2px -1.5px rgba(242,222,111,.9), -3px 4px rgba(21,21,21,.85);
-    font-style: italic;
-    font-size: 18px;
+    font-family: "freshmarker";
+    font-style: normal;
+    font-size: 21px;
     white-space: nowrap;
-    opacity: .92;
+    opacity: .95;
+}
+
+.brand{
+    font-family: "freshmarker";
+    font-style: bold;
+    font-size: 24px;
+    padding: 1.25rem;
+    background-color: #212121;
+    color: whitesmoke;
 }
 
 .logo img{
     z-index: 0;
-    width: 50px;
+    width: 54px;
     transform: scaleX(-1);
     position: absolute;
-    top: 18px;
+    top: 14px;
     left: 9px;
+    opacity: .83;
 }
 
 .homePage img{
@@ -67,7 +83,7 @@ a, a:hover, a:visited, a:active{
 }
 
 @keyframes fadein {
-    0%{opacity: 0}
+    0%{opacity: .07}
     25%{opacity: .2}
     50%{opacity: .42}
     75%{opacity: .72}
@@ -76,12 +92,12 @@ a, a:hover, a:visited, a:active{
 
 @keyframes slidein{
     0%{margin-left: -66%}
-    50%{margin-left: 33%}
+    44%{margin-left: 40%}
     100%{margin-left: 0%}
 }
 
 .navbar img:hover{
-    transform: scale(1.25);
+    transform: scale(1.2);
     transition: 1.4s;
 }
 
@@ -100,8 +116,6 @@ a, a:hover, a:visited, a:active{
     opacity: .93;
     pointer-events: none;
 }
-
-
 
 .cart{
     background-color: whitesmoke;
@@ -347,4 +361,14 @@ div.pic{
 .checkout:hover, .removeAll:hover{
     transition: .5s;
     box-shadow: -1px 1px rgba(21,21,21,.6);
+}
+
+#trolllogo{
+    opacity: .02;
+}
+
+#trolllogo:hover{
+    opacity: 1;
+    transition: 13s;
+    transform: scaleX(-1);
 }
